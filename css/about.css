@@ -92,9 +92,10 @@ p {
 .jumbo {
     margin: 5% 0;
 }
-/* .about {
-    border-bottom: 1 dashed black;
-} */
+.about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
 .top {
 	display: flex;
 
@@ -102,17 +103,35 @@ p {
 .strategy, img {
     margin: 3% 0;
 }
+.strategy p {
+    padding: 2% 0;
+    margin-right: 7%;
+    border-bottom: 1px dashed black;
+}
 .how-we-work {
     margin: 3% 0;
+}
+.how-we-work p {
+    padding: 2% 0;
+    border-bottom: 1px dashed black;
 }
 .bottom {
     display: flex;
 }
+.bottom p {
+    padding: 2% 0;
+    border-bottom: 1px dashed black;
+}
 .places-we-work {
     margin: 3% 0;
 }
+.places-we-work p {
+    padding: 2% 0;
+    margin-right: 7%;
+    border-bottom: 1px dashed black;
+}
 .colab {
-	margin: 3% 0;
+    margin: 3% 0;
 }
 button {
     border: 1px solid black;
@@ -121,7 +140,9 @@ button {
 	width: 150px;
 	height: 50px;
 }
-
+.lower {
+    margin:3% 0;
+}
 footer {
     width: 100%;
     background: black;
