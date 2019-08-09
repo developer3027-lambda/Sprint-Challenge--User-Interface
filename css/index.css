@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 1% 0;
 }
 .header {
     display: flex;
@@ -87,6 +88,9 @@ p {
     text-decoration: none;
     color: black;
 
+}
+.jumbo {
+    margin: 5% 0;
 }
 
 .top-content {
